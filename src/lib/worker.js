@@ -23,7 +23,10 @@ var init = function(done) {
 
     hostIp = addr;
     hostIpAndPort = hostIp + ':' + config.mongoPort;
-
+    
+    console.log(hostIp);
+    console.log(hostIpAndPort);
+    
     done();
   });
 };
